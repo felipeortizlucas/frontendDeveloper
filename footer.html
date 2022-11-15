@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>footer</title>
+  <style>
+    .container {
+      width: 100%;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: darkmagenta;
+    }
+
+    .container div p {
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .box {
+      border: 1px solid white;
+      border-radius: 5px;
+      display: flex;
+    }
+
+    .box div {
+      width: 200px;
+      height: 30px;
+    }
+
+    .box div:nth-child(1) {
+      background: white;
+    }
+
+    .box .left p:nth-child(1) {
+      color: darkmagenta;
+      text-align: center;
+      margin-bottom: 5px;
+      font-size: 12px;
+
+
+    }
+
+    .box .right p:nth-child(1) {
+      color: white;
+      text-align: center;
+      margin-bottom: 5px;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <section class="container">
+    <div>
+      <p>¿Ready for more?¿ Listo para mas?</p>
+    </div>
+    <div class="box">
+      <div class="left">
+        <p>Escriba su corrreo</p>
+      </div>
+      <div class="right">
+        <p>Suscribete</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
